@@ -1,0 +1,25 @@
+[alias]
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    who = shortlog -s --
+[core]
+	editor = vim
+	autocrlf = input
+	safecrlf = warn
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[push]
+	default = simple
+[user]
+	email = yanzhuo@artplaygames.com
+	name = yz
